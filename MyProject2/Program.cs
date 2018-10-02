@@ -59,8 +59,8 @@ namespace MyProject2
             bool canvote = age > 17 && iscitizen;
             System.Console.WriteLine(canvote);
 
-            System.Threading.Thread.Sleep(4000);
-            System.Console.WriteLine(fullname + MiddleName + LastName + "height" + "is" + totalheight + "and" + "you" + "vote" + canvote);
+            System.Console.WriteLine(fullname + " " + "height" + " " + "is" + " " + totalheight + " " + "and" + " " + "you" + " " + "can" + " " + "vote"+"(" + canvote + ")");
+            System.Threading.Thread.Sleep(15000);
 
 
 

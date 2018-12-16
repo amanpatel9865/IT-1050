@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Chesss
-{
+{  
     public class Pawn
     {
         public const char PAWN_SYMBOL = 'X';
@@ -32,3 +32,4 @@ namespace Chesss
     }
 }
 
+ 

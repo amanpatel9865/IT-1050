@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Chesss
+namespace Chesss  
 {
     public class Move : Pawn
 
@@ -20,7 +20,7 @@ namespace Chesss
             targetY = 0;
             destinationX = 0;
             destinationY = 0;
-            Exit = false;
+            Exit = false; 
         }
         public bool Exit { get; set; }
         public void MakeMove()

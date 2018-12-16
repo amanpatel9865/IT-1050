@@ -18,7 +18,7 @@ namespace Constructor1
 
             Student Matt = new Student("Matt", "Mike");
 
-            
+                          
 
 
             int JaneGrades = Jhon.SetStudentGrades(45, 50);

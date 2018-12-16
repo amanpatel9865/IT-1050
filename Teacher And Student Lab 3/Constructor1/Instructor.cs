@@ -3,7 +3,7 @@
 namespace Constructor1
 {
     class Instructor
-    {
+    { 
        private string Name;
         private string Coursename;
         

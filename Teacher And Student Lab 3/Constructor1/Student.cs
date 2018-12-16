@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Constructor1
 {
-    class Student
+     class Student
     {
         private string Name;
         private string Teacher;

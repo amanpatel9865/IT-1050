@@ -8,8 +8,14 @@ namespace Constructor1
 {
     class Student
     {
-        public string Name;
-        public string Teacher;
+        private string Name;
+        private string Teacher;
+
+        public Student(string name, string teacher)
+        {
+            this.Name = name;
+            this.Teacher = teacher;
+        }
         
         public void Speak(string WhatToSay)
         {

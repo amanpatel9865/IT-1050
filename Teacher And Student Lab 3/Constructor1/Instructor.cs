@@ -4,8 +4,15 @@ namespace Constructor1
 {
     class Instructor
     {
-        public string Name;
-        public string Coursename;
+       private string Name;
+        private string Coursename;
+        
+
+        public Instructor(string name, string coursename
+        {
+            this.Name = name;
+            this.Coursename = coursename;
+        }
 
         public static void HorizontalDivider()
 
